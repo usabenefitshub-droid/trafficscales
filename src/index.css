@@ -1,4 +1,4 @@
-```
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -106,4 +106,3 @@
 .glow-effect:hover::before {
   opacity: 1;
 }
-```
