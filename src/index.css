@@ -70,7 +70,6 @@
 
   .feature-card {
   @apply glass-card p-8 hover:border-brand-blue/20 hover:bg-[#1a1a2e]/60 transition-all duration-300 cursor-pointer;
-  
   }
 
   .feature-icon {
