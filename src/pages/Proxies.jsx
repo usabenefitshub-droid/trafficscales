@@ -22,8 +22,7 @@ const Proxies = () => {
   const handleAddProxies = () => {
     if (!newProxies.trim()) return
 
-    const proxyList = newProxies.split('
-').filter(p => p.trim())
+    const proxyList = newProxies.split('\n').filter(p => p.trim())
     const newProxyObjects = proxyList.map((proxy, index) => ({
       id: proxies.length + index + 1,
       proxy: proxy.trim(),
