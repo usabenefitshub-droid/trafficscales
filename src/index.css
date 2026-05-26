@@ -74,7 +74,7 @@
 
   .feature-icon {
     @apply w-12 h-12 rounded-xl bg-gradient-to-br from-brand-blue/20 to-brand-purple/20 
-           flex items-center justify-center text-brand-blue :scale-110 transition-transform duration-300;
+           flex items-center justify-center text-brand-blue hover:scale-110 transition-transform duration-300;
   }
 }
 
